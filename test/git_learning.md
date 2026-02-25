@@ -24,6 +24,7 @@ git config --global user.email "真实邮箱（最好是github使用的邮箱）
 ## 1.3 异常排错记录：网络连接重置
 
 如果在推送时遇到 `Recv failure: Connection was reset` 错误，通常是因为终端未能识别本机的网络代理通道。
+
 ![网络连接重置错误截图](./image.png)
 
 **解决方案：**
