@@ -19,9 +19,12 @@ git config --global user.email "真实邮箱（最好是github使用的邮箱）
 2. **入库（提交）：** `git commit -m "my first commit"`
 3. **发车（推送）：** `git push -u origin main`
 
+![Git提交流程](./Git提交流程.png)
+
 ## 1.3 异常排错记录：网络连接重置
 
 如果在推送时遇到 `Recv failure: Connection was reset` 错误，通常是因为终端未能识别本机的网络代理通道。
+![网络连接重置错误截图](./image.png)
 
 **解决方案：**
 
